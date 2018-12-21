@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="cn">
+<meta charset="UTF-8">
+    <title>留言界面</title>
+</head>
+<body bgcolor="#93B1D5" >
+<div style="text-align:center;margin-top: 10%">
+    <h1 >留言板</h1>
+    <form action="LeaveMessage" method="post">
+        <table  style="margin-left:40%" border="1">
+            <caption>填写留言信息</caption>
+            <tr>
+                <td>留言标题</td>
+                <td><input type="text" name="title"/></td>
+            </tr>
+            <tr>
+                <td>留言内容</td>
+                <td><textarea rows="5" cols="35" name="message"></textarea></td>
+            </tr>
+        </table>
+        <input type="submit" value="提交"/>
+        <input type="reset" value="重置"/>
+    </form>
+    <a href="messageBoard.jsp">返回留言板界面</a>
+</div>
+</body>
+</html>

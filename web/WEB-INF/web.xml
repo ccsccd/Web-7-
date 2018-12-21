@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>hihi</servlet-name>
+        <servlet-class>servlets.Hi</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hihi</servlet-name>
+        <url-pattern>/hihihihi</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>welcome</servlet-name>
+        <servlet-class>servlets.WeclomeYou</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>welcome</servlet-name>
+        <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>simpleLogin</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>simpleLogin</servlet-name>
+        <url-pattern>/simpleLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newLogin</servlet-name>
+        <servlet-class>servlets.newLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newLogin</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newRegister</servlet-name>
+        <servlet-class>servlets.newRegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newRegister</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>newLeaveMeassage</servlet-name>
+        <servlet-class>servlets.newLeaveMessageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>newLeaveMeassage</servlet-name>
+        <url-pattern>/LeaveMessage</url-pattern>
+    </servlet-mapping>
+</web-app>
