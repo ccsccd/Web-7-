@@ -17,7 +17,7 @@ public class JDBCUtil {
         try {
             con = DriverManager.getConnection("jdbc:mysql://localhost/redrock"
                             + "? serverTimezone=GMT%2B8" +
-                            "?useUnicode=true&characterEncoding=utf-8&useSSL=false",
+                            "?useUnicode=true&characterEncoding=utf-8&useSSL=false&autoReconnect=true",
                     "root", "newpass");
         } catch (Exception e) {
             e.printStackTrace();
